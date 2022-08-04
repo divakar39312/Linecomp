@@ -7,6 +7,7 @@ public class Distanceiscal {
 
 		/*
 		 * equality of two line
+		 * length greater line
 		 */
 		
 		int x1=8;
@@ -25,5 +26,10 @@ public class Distanceiscal {
 		Integer a1=new Integer((int)distof1);
 		Integer a2=new Integer((int)distof2);
 		System.out.println("line are equal"+a1.equals(a2));
+		if(a1.compareTo(a2)>0) {
+			System.out.println("length of first line is greater");
+		}else {
+			System.out.println("length of second line greater");
+		}
 }
 }
